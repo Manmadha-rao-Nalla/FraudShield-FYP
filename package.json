@@ -1,0 +1,13 @@
+{
+  "name": "fraud-detector-vercel",
+  "version": "1.0.0",
+  "description": "FraudShield - AI Transaction Analyzer deployed on Vercel",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build needed'",
+    "start": "echo 'Use vercel dev to run locally'"
+  },
+  "devDependencies": {
+    "vercel": "^latest"
+  }
+}
