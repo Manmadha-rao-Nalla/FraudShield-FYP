@@ -7,7 +7,6 @@
     "build": "echo 'No build needed'",
     "start": "echo 'Use vercel dev to run locally'"
   },
-  "devDependencies": {
-    "vercel": "^latest"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
