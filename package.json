@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "FraudShield - AI Transaction Analyzer",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "build": "echo 'No build needed'",
+    "dev": "echo 'Deploy to Vercel'"
   }
 }

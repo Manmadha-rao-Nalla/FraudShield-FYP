@@ -1,5 +1,24 @@
 {
   "version": 2,
-  "buildCommand": "echo 'no build needed'",
-  "public": true
+  "buildCommand": "echo 'Static site with serverless functions'",
+  "public": true,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/api/:path*"
+    }
+  ]
 }
